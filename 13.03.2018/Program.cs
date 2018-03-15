@@ -11,7 +11,7 @@ namespace _13._03._2018
 
         private static void Main(string[] args)
         {
-            FirstOrder();
+            ArrayToFill();
             Console.WriteLine("Список массива по парам");
 
             for (var i = 0; i < arr.Length - 1; i++)
@@ -38,7 +38,7 @@ namespace _13._03._2018
             Console.ReadKey();
         }
 
-        private static void FirstOrder()
+        private static void ArrayToFill()
         {
             var rnd = new Random();
 
