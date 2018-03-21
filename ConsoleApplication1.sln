@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.03.2018", "13.03.2018\13
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14,03,2018", "14,03,2018\14,03,2018.csproj", "{399CBEEE-9D88-43EB-A7F8-905043D07E0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork1from20.03", "HomeWork1from20.03\HomeWork1from20.03.csproj", "{3F518599-1C36-42B1-BC44-AED85B8A9228}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,18 @@ Global
 		{399CBEEE-9D88-43EB-A7F8-905043D07E0A}.Release|x64.Build.0 = Release|Any CPU
 		{399CBEEE-9D88-43EB-A7F8-905043D07E0A}.Release|x86.ActiveCfg = Release|Any CPU
 		{399CBEEE-9D88-43EB-A7F8-905043D07E0A}.Release|x86.Build.0 = Release|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Debug|x64.Build.0 = Debug|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Debug|x86.Build.0 = Debug|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Release|x64.ActiveCfg = Release|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Release|x64.Build.0 = Release|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Release|x86.ActiveCfg = Release|Any CPU
+		{3F518599-1C36-42B1-BC44-AED85B8A9228}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
