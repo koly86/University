@@ -27,13 +27,13 @@ namespace HomwWork3from20._03
         {
             arr[0] = 524;
             for (var i = 1; i < arr.Length; i++) arr[i] = rnd.Next(1, 10000);
+            Array.Sort(arr);
         }
 
 
         private static void MyMet()
         {
             var count = 0;
-            Array.Sort(arr); //сортируем в сторону увеличения
             for (var i = 0; i < arr.Length; i++)
             {
                 Console.WriteLine($@"Hex: {arr[i]:X}   original {arr[i]}");
