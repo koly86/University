@@ -26,11 +26,11 @@ namespace HomeWork2from20._03
         private static void MyMet()
         {
             var count = 0;
-             Array.Sort(arr); //сортируем в сторону увеличения
+            Array.Sort(arr); //сортируем в сторону увеличения
             for (var i = 0; i < arr.Length; i++)
             {
                 Console.WriteLine($@"Hex: {arr[i]:X}   original {arr[i]}");
-              
+
 
                 for (var j = 0; j < arr[i].ToString("X").Length; j++) //перебираем полученную цифру по слогам
 

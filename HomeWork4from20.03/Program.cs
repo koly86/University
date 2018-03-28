@@ -4,7 +4,7 @@ namespace HomeWork4from20._03
 {
     internal class Program
     {
-        private static readonly int[] ArrayInts = new int[20];
+        private static readonly int[] ArrayInts = new int[20]; // размерность массива array size
         private static int[] NewArray;
 
         private static Random _rnd = new Random();
@@ -24,7 +24,7 @@ namespace HomeWork4from20._03
             _rnd = new Random();
 
             for (var i = 0; i < ArrayInts.Length; i++) ArrayInts[i] = _rnd.Next(1, 100); //Заполняем массив
-            Array.Sort(ArrayInts); // сортируем
+            Array.Sort(ArrayInts); // сортируем sort
         }
 
         private static void Resolve()
@@ -36,7 +36,7 @@ namespace HomeWork4from20._03
                 if (t == c) continue;
                 c = t;
                 Console.WriteLine($@"                     C = {c}");
-                count++; //считаем уникальные числа
+                count++; //считаем уникальные числа count of numbers
             }
 
 

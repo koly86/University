@@ -39,7 +39,6 @@ namespace HomwWork3from20._03
                                     Console.WriteLine($@"original number {t} number xex {t:X}");
                                     return;
                                 }
-
         }
     }
 }

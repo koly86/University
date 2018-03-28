@@ -19,12 +19,12 @@ namespace HomeWork1from20._03
 
         private static void Main(string[] args)
         {
-            Stopwatch stopWatch = new Stopwatch();
+            var stopWatch = new Stopwatch();
             stopWatch.Start();
             ToFillArray();
             MyMet();
             stopWatch.Stop();
-            TimeSpan ts = stopWatch.Elapsed;
+            var ts = stopWatch.Elapsed;
             Console.WriteLine(ts.Milliseconds);
 
             Console.ReadKey();
@@ -39,7 +39,7 @@ namespace HomeWork1from20._03
         private static void MyMet()
         {
             var count = 0;
-           // Array.Sort(arr); //сортируем в сторону увеличения
+            // Array.Sort(arr); //сортируем в сторону увеличения
             for (var i = 0; i < arr.Length; i++)
             {
                 for (var j = 0; j < arr[i].ToString("X").Length; j++) //перебираем полученную цифру по слогам
